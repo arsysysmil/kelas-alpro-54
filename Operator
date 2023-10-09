@@ -112,3 +112,41 @@ void main(){
     // logika NOT
     printf("!a = %d\n", !a);
 }
+#include <stdio.h>
+
+void main(){
+    int a = 6;
+    int b = 3;
+
+    printf("a & b = %d\n", a & b);
+}
+#include <stdio.h>
+
+void main(){
+    int a = 6;
+    int b = 3;
+
+    printf("a | b = %d\n", a | b);
+}
+#include <stdio.h>
+
+void main(){
+    int a = 6;
+    int b = 3;
+
+    printf("a & b = %d\n", a ^ b);
+}
+#include <stdio.h>
+
+void main(){
+    int a = 6;
+
+    printf("~a = %d\n", ~a);
+}
+#include <stdio.h>
+
+void main(){
+    int a = 6;
+
+    printf("a << 1 = %d\n", a << 1);
+}
