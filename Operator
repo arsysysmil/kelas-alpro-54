@@ -150,3 +150,45 @@ void main(){
 
     printf("a << 1 = %d\n", a << 1);
 }
+#include <stdio.h>
+
+void main(){
+    // membuat pointer
+    int *a = 5;
+
+    // ambil alamat memori dari pointer a
+    printf("alama memori variabel a adalah %x\n", &a);
+}
+#include <stdio.h>
+
+void main(){
+    int a = 4;
+
+    printf("a > 1 adalah %s", a > 1 ? "benar": "salah");
+}
+#include <stdio.h>
+
+void main(){
+    int a = 4;
+
+    // increment a
+    a++;
+
+    printf("a++ = %d\n", a);
+
+    // increment a
+    ++a;
+
+    printf("++a = %d\n", a);
+
+    // decrement a
+    a--;
+
+    printf("a-- = %d\n", a);
+
+    // decrement a
+    --a;
+
+    printf("--a = %d\n", a);
+return 0;
+}
