@@ -1,2 +1,2 @@
-# kelas-alpro-54
-repositori tempat menaruh materi dan tugas algoritma dan pemograman
+# Kelas-Alpro
+Repository tempat menaruh materi dan tugas Alpro Semester 1
